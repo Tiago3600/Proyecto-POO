@@ -12,4 +12,12 @@ public class Cliente extends Persona {
         this.tarjeta = tarjeta;
     }
 
+    public String getTarjeta() {
+        return tarjeta;
+    }
+
+    public void setTarjeta(String tarjeta) {
+        this.tarjeta = tarjeta;
+    }
+
 }
