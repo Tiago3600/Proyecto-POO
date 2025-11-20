@@ -12,4 +12,12 @@ public class Administrador extends Empleado {
         this.tipoAdmin = tipoAdmin;
     }
 
+    public String getTipoAdmin() {
+        return tipoAdmin;
+    }
+
+    public void setTipoAdmin(String tipoAdmin) {
+        this.tipoAdmin = tipoAdmin;
+    }
+
 }
